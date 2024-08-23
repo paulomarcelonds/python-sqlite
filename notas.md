@@ -53,7 +53,10 @@ O *cursor* também é responsável por gerenciar as transações no banco de dad
 - Resumo de um fluxo de trabalho usando o banco de dados SQLite.
 > 1. Criação da conexão com o banco de dados usando o metodo **connect**.
 > 2. Criação do cursor com a conexão, responsavel por enviar comandos ao banco de dados.
-> 3. 
+> 3. Utlizar o cursor para executar as tarefas como criar obejtos, inserir linhas, criar tabelas, consultar registros e outras coisas mais.
+> 4. Efetivar as alterações com o metodo **commit** da conexão ou para desfazer usando o **rollback**
+> 5. Fechar o cursor e a conexão.
+
 
 
 
